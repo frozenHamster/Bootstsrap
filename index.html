@@ -6,44 +6,24 @@
     <title>Yeah~</title>
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./lib/fontasome/css/font-awesome.min.css">
   </head>
   <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-        Dropdown
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-         <li role="presentation" class="dropdown-header">Dropdown header</li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-        <li role="presentation" class ="divider">
-        <li role="presentation" class= "disabled"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-      </ul>
-    </div>
-    <div class="dropup">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true">
-        Dropdown
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-      </ul>
-    </div>
-
-
-
+<section class="container">
+<q>버튼드랍다운</q>
+<!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+  <span class="glyphicon glyphicon-bishop" aria-hidden="true"></span>  Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
 <script src="./lib/jquery-3.1.1.min.js"></script>
 <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="./js/script.js"></script>
