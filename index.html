@@ -2,28 +2,47 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UV-Compatible",content="IE=edge">
 <meta name = "viewport" content = "width=device-width, initial-scale=1">
-    <title>Yeah~</title>
+    <title>메인화면</title>
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./lib/fontasome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./lib/fontasome/css/font-awesome.min.css">
   </head>
   <body>
-<section class="container">
-<q>버튼드랍다운</q>
-<!-- Single button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-  <span class="glyphicon glyphicon-bishop" aria-hidden="true"></span>  Action <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">웹</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">메인<span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">컴포런트 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="compoenent/DropDown.html">드롭다운</a></li>
+                <li><a href="compoenent/buttonDropDown.html">버튼 그룹</a></li>
+                <li><a href="compoenent/IG.html">입력 그룹</a></li>
+                <!-- <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li> -->
+              </ul>
+            </li>
+            <!-- 자바스크립트 드롭다운 -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">자바스크립트 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="javascript/modal.html">모달</a></li>>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<h1 class="mainstyle-Top">환영합니다!</h1>
+<h3 class="mainstyle">Bootstrap의 세계에 오신걸 환영합니다.</h3>
 <script src="./lib/jquery-3.1.1.min.js"></script>
 <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="./js/script.js"></script>

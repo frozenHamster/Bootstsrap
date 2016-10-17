@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>드롭다운</title>
+    <link rel="stylesheet" href="./../lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../lib/fontasome/css/font-awesome.min.css">
+  </head>
+  <body>
+    <ul class="nav nav-pills nav-stacked col-sm-2">
+      <li role="presentation"><a href="http://localhost">홈</a></li>
+      <li role="presentation"class="active"><a href="#">드롭다운</a></li>
+      <li role="presentation"><a href="http://localhost/compoenent/buttonDropDown.html">버튼 그룹</a></li>
+        <li role="presentation"><a href="http://localhost/compoenent/IG.html">입력 그룹</a></li>
+    </ul>
+
+
+
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+        드롭다운
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">실행</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">다른 실행</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">그외</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">라인선</a></li>
+      </ul>
+    </div>
+    <script src="./../lib/jquery-3.1.1.min.js"></script>
+    <script src="./../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./../js/script.js"></script>
+  </body>
+</html>
