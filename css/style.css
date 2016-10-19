@@ -5,3 +5,18 @@
   margin-top: 50px;
     margin-left: 50px;
 }
+.section{
+  border-radius:  2px solied gray;
+}
+.badstyle{
+  color : black;
+  background-color: rgb(194, 189, 189);
+}
+.imgstyle{
+  width: 100%;
+  height: 50%;
+}
+.seel{
+  width: 50%;
+  height: 50%;
+}
